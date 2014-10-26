@@ -1,15 +1,7 @@
 List of variables in final tidy dataset:
 
-- subject.id
-	an identifier of the subject who carried out the experiment (integer in range: 1-30)
-- activity_name
-	name of one of six activities:
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
+- subject.id (an identifier of the subject who carried out the experiment - integer in range: 1-30)
+- activity_name (one of six activities: WALKING/ WALKING_UPSTAIRS/ WALKING_DOWNSTAIRS/ SITTING/ STANDING/ LAYING)
 - 66-columns with means and standard deviations of time and frequency domain variables, averaged over each activity and each subject, normalized and bounded within [-1,1]
 - tBodyAcc-mean()-X           
 - tBodyAcc-mean()-Y          
