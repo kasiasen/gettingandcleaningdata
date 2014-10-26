@@ -16,14 +16,14 @@ The script prepares raw data for further analyses is the following steps:
 
 ### Step 1
 - reads following files from 'UCI HAR Dataset' directory into R: 
-* features.txt (plus sets appriopriate column names)
-* activity_labels.txt (plus sets appriopriate column names)
-* X_train.txt
-* y_train.txt
-* X_test.txt
-* y_test.txt 
-* subject_train.txt
-* subject_test.txt
+	* features.txt (plus sets appriopriate column names)
+	* activity_labels.txt (plus sets appriopriate column names)
+	* X_train.txt
+	* y_train.txt
+	* X_test.txt
+	* y_test.txt 	
+	* subject_train.txt
+	* subject_test.txt
 - merges a 561-feature vector containing time and frequency domain variables (X_train/X_test) with activity label (X_train_labels/X_test_labels) 
 and an identifier of the subject who carried out the experiment (subject_train/subject_test) for training/test datasets respectively
 - merges full training (train_full) and test (test_full) datasets together into one dataset: step1_full_dataset
